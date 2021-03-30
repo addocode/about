@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-hyphens: auto;
+-webkit-hyphenate-limit-chars: auto 3;
+-webkit-hyphenate-limit-lines: 4;
+-ms-hyphens: auto;
+-ms-hyphenate-limit-chars: auto 3;
+-ms-hyphenate-limit-lines: 4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-img {
+    position: fixed;
+    float: left;
+    width: 38.2%;
+    height: 100%;
+    background-image: url(../img/forest.jpeg);
+    background-size: cover;
+    transform: scale(1.04);
+    filter: blur(3px);
+    transition: all 0.7s ease-in-out;
+    opacity: 0.85;
+}
+
+.bg-img:hover {
+    transition: all 0.5s ease-in-out;
+}
+
+.area {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.aside-area {
+    position: absolute;
+    width: 38.2%;
+    height: 100%;
+}
+
+.background {
+    position: relative;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    background-color: lightblue;
+    float: right;
+    width: 61.8%;
+    height: 100vh;
+    box-shadow: 47px 7px 63px 42px rgba(0,0,0,0.75);
+    z-index: 1;
+}
+
+section {
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: hidden;
+    display: inline-block;
+    float: right;
+    width: 61.8%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 70px 100px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: besley-medium;
+    letter-spacing: 5px;
+    margin-bottom: 52px;
+    line-height: 77px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    hyphens: auto;
+}
+
+h2 {
+    font-family: metropolis-thin;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    word-spacing: 2px;
+    font-size: 23px;
+    margin-bottom: 22px;
+    padding-bottom: 8px;
+    border-bottom: 4px solid black;
+}
+
+p {
+    font-family: vollkorn;
+    font-size: 19px;
+    line-height: 25px;
+    float: left;
+    display: inline-block;
+    width: 50%;
+    text-align: justify;
+}
+
+.l-b {
+    padding-right: 20px;
+}
+
+.r-b {
+    padding-left: 20px;
+}
+
+.br {
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-family: roboto-slab-bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-family: montserrat-medium;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+}
+
+h5 {
+    font-family: bebas-bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 50px 0 0 50px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+    margin-bottom: -40px;
+}
+
+h5.upper {
+    font-size: 75px;
+    opacity: 0.5;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+h5.lower {
+    font-size: 40px;
+    font-family: bebas-light;
+}
+
+h5 a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    transition: all 0.4s ease-in;
+}
+
+h5 a:hover {
+    margin-left: 15px;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.learn-more {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 50px 61px;
+    transform: scale(1.1);
+    filter: invert(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.learn-more:hover {
+    filter: invert(0);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+.side-info-box {
+    transform: rotate(90deg);
+    position: fixed;
+    top: 400px;
+    right: -350px;
+}
+
+.side-info {
+    display: inline-block;
+    margin: 0 30px;
+    cursor: vertical-text;
+    background-color: white;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+
+    .aside-area {
+        display: none;
+    }
+
+    .bg-img {
+        display: none;
+    }
+
+    section {
+        float: right;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    section {
+        width: 100%;
+    }
+
+    p.r-b.br {
+        margin-bottom: 60px;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .l-b {
+        padding-right: 0px;
+    }
+
+    .r-b {
+        padding-left: 0px;
+        margin-bottom: 60px;
+    }
+
+    .br {
+        margin-bottom: 17px;
+    }
+
+    .side-info {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 56px;
+    }
+
+    .wrapper {
+        padding: 90px 28px;
+    }
+
+}

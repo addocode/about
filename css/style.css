@@ -1,0 +1,36 @@
+/* SELECTION */
+
+::selection {
+	background-color: black;
+	color: white;
+}
+
+/* ps */
+#page-13 > * ::selection {
+	background-color: rgb(0, 200, 255);
+	color: white;
+}
+
+/* ai */
+#page-14 > * ::selection {
+	background-color: rgb(255, 124, 0);
+	color: white;
+}
+
+/* id */
+#page-15 > * ::selection {
+	background-color: rgb(255, 63, 148);
+	color: white;
+}
+
+/* ae */
+#page-16 > * ::selection {
+	background-color: rgb(210, 145, 255);
+	color: white;
+}
+
+/* pr */
+#page-17 > * ::selection {
+	background-color: rgb(234, 119, 255);
+	color: white;
+}

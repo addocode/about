@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'eupho';
+    src: url('euphorigenic-webfont.woff2') format('woff2'),
+         url('euphorigenic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'postamt';
+    src: url('postamt-webfont.woff2') format('woff2'),
+         url('postamt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'megan';
+    src: url('megan_june-webfont.woff2') format('woff2'),
+         url('megan_june-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas-bold';
+    src: url('bebasneue_bold-webfont.woff2') format('woff2'),
+         url('bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vollkorn';
+    src: url('vollkorn-regular-webfont.woff2') format('woff2'),
+         url('vollkorn-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolis-light';
+    src: url('metropolis-light-webfont.woff2') format('woff2'),
+         url('metropolis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'besley-medium';
+    src: url('besley-medium-webfont.woff2') format('woff2'),
+         url('besley-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolis-thin';
+    src: url('metropolis-thin-webfont.woff2') format('woff2'),
+         url('metropolis-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-slab-bold';
+    src: url('robotoslab-bold-webfont.woff2') format('woff2'),
+         url('robotoslab-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('montserrat-medium-webfont.woff2') format('woff2'),
+         url('montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolis-light';
+    src: url('metropolis-light-webfont.woff2') format('woff2'),
+         url('metropolis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolis-medium';
+    src: url('metropolis-medium-webfont.woff2') format('woff2'),
+         url('metropolis-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway-dots';
+    src: url('ralewaydots-regular-webfont.woff2') format('woff2'),
+         url('ralewaydots-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas-light';
+    src: url('bebasneue_light-webfont.woff2') format('woff2'),
+         url('bebasneue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metropolis-regular';
+    src: url('metropolis-regular-webfont.woff2') format('woff2'),
+         url('metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto-slab-regular';
+    src: url('robotoslab-regular-webfont.woff2') format('woff2'),
+         url('robotoslab-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
