@@ -90,7 +90,26 @@ body {
 }
 
 .BUTTON-long:hover {
-    transform: scale(2);
+    transform: scale(1.05);
+    color: white;
+    background-color: rgba(255, 100, 100, 1);
+    transition: all 0.2s ease-out;
+}
+
+.BUTTON-fullwidth {
+    display: block;
+    background-color: white;
+    padding: 0px 5px;
+    cursor: default;
+    box-shadow: 2px 2px 7px -2px rgba(0,0,0,0.75);
+    color: rgba(100, 100, 100, 1);
+    border-radius: 2px;
+    margin: 0px 0px 20px 0px;
+    transition: all 0.3s ease-in;
+}
+
+.BUTTON-fillwidth:hover {
+    transform: scale(1.05);
     color: white;
     background-color: rgba(255, 100, 100, 1);
     transition: all 0.2s ease-out;
