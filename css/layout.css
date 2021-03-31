@@ -99,7 +99,7 @@ body {
 .BUTTON-fullwidth {
     display: block;
     background-color: white;
-    padding: 0px 5px;
+    padding: 30px 20px;
     cursor: default;
     box-shadow: 2px 2px 7px -2px rgba(0,0,0,0.75);
     color: rgba(100, 100, 100, 1);
