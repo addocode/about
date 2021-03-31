@@ -96,7 +96,7 @@ body {
     transition: all 0.2s ease-out;
 }
 
-.BUTTON-fullwidth {
+.BUTTON-fw {
     display: block;
     background-color: white;
     padding: 20px 20px;
@@ -108,7 +108,7 @@ body {
     transition: all 0.3s ease-in;
 }
 
-.BUTTON-fullwidth:hover {
+.BUTTON-fw:hover {
     transform: scale(1.05);
     color: white;
     background-color: rgba(255, 100, 100, 1);
