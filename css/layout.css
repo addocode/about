@@ -99,7 +99,7 @@ body {
 .BUTTON-fullwidth {
     display: block;
     background-color: white;
-    padding: 30px 20px;
+    padding: 20px 20px;
     cursor: default;
     box-shadow: 2px 2px 7px -2px rgba(0,0,0,0.75);
     color: rgba(100, 100, 100, 1);
@@ -108,7 +108,7 @@ body {
     transition: all 0.3s ease-in;
 }
 
-.BUTTON-fillwidth:hover {
+.BUTTON-fullwidth:hover {
     transform: scale(1.05);
     color: white;
     background-color: rgba(255, 100, 100, 1);
