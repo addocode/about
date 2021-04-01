@@ -96,6 +96,18 @@ body {
     transition: all 0.2s ease-out;
 }
 
+.BUTTON-short {
+    cursor: default;
+    color: rgba(100, 100, 100, 1);
+    transition: all 0.3s ease-in;
+}
+
+.BUTTON-short:hover {
+    transform: scale(1.05);
+    color: rgba(255, 100, 100, 1);
+    transition: all 0.2s ease-out;
+}
+
 .BUTTON-fw {
     display: block;
     background-color: white;
