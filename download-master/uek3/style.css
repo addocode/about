@@ -1,0 +1,203 @@
+* {
+	font-family: 'Orbitron', sans-serif;
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.7;
+	background-color: #fff;
+	color: #777;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #31b2ed;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+h1, h2, h3, h4 {
+	color: #333;
+	font-family: 'Arial', sans-serif;
+	font-weight: 700;
+}
+h1 {
+	margin-top: 90px;
+	margin-bottom: 0;
+	line-height: 1.2;
+}
+h3 {
+	padding: 20px 0;
+	margin: 0;
+	border-bottom: 1px solid #ececec;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 1140px;
+}
+.row {
+	margin: 0 -15px;
+}
+.row::after {
+	clear: both;
+	display: table;
+	content: "";
+																																																																		}
+
+
+.col-66 {
+	width: 66.6666%;
+	padding: 0 15px;
+	float: left;
+}
+.col-33 {
+	width: 25%;
+	padding: 0 15px;
+	float: right;
+	
+	
+}
+
+
+.col-333 {
+	width: 25%;
+	padding: 25px 70px;
+	float: left;
+	
+	
+}
+
+
+.col-99  {
+	width: 45%;
+	padding: 0 15px;
+	float: left;
+}
+
+
+
+
+.lang {
+	float: right;
+	display: inline;
+	color: black;
+	width: 45%;
+	
+	
+}
+
+
+
+.no-margin {
+	margin: 0;
+}
+header {
+	padding: 35px 0 20px 0;
+}
+input {
+	padding: 15px;
+	border: 1px solid #bbb;
+	border-radius: 2px;
+	width: 100%;
+}
+.bgdark {
+	background-color: black;
+	padding: 15px 0;
+	margin-bottom: 30px;
+}
+
+
+
+.bggrey {
+	background-color: rgb(153, 25, 20);
+	padding: 30px 0;
+}
+.box {
+	background-color: white;
+	border: 1px solid #ececec;
+	border-radius: 2px;
+
+}
+
+.box h3 {
+	padding: 20px 40px;
+}
+.box p {
+	padding: 20px 40px;
+}
+.box a, footer a {
+	font-weight: bold;
+}
+footer {
+	padding-top: 30px;
+}
+footer .wrapper {
+	padding-bottom: 20px;
+}
+
+
+}
+table {
+	border: none;
+}
+.name {
+	border-top: 1px solid #ececec;
+	text-align: center;
+	padding: 30px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+	
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+nav img {
+    width: 70px;
+    float: left;
+    position: relative;
+    bottom: 57px;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+
+nav.horizontal li {
+	display: inline;
+}
+
+nav.horizontal a {
+	display: inline-block;
+	padding: 5px 15px;
+	color: white;
+	font-family: 'Orbitron'sans-serif;
+	font-size: 19px;
+	transition: all 0.1s ease-in-out;
+	text-align: center;
+}
+nav.horizontal a:hover {
+	color: rgb(153, 25, 20);
+}
+
+
+
+a {
+	color: rgb(153, 25, 20);
+	
+}
+
+a:hover {
+	text-decoration: underline;
+	
+}
+
+.film {
+    width: 1200px;
+}
+
+
+
