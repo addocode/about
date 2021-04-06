@@ -1,4 +1,4 @@
-# Maintenance
-Komme später vorbei.
+# Willkommen!
+Schau dich ruhig um.
 
 https://addocode.github.io/about/
