@@ -1,0 +1,206 @@
+/************* GENERAL *************/
+
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url("../img/cursors/normal.cur"), auto;
+}
+
+body { 
+  background: #000 url("../img/bg.png") repeat center center;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  margin: 0 auto;
+	width: 600px;
+}
+
+/***********************************/
+
+
+
+/************* FONTS *************/
+
+@font-face {
+    font-family: 'pixel_lcd7regular';
+    src: url('../fonts/title/pixel_lcd-7-webfont.woff2') format('woff2'),
+         url('../fonts/title/pixel_lcd-7-webfont.woff') format('woff'),
+         url('../fonts/score/pixelmix-webfont.woff2') format('woff2'),
+         url('../fonts/score/pixelmix-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pixelmixregular';
+    src: url('../fonts/score/pixelmix-webfont.woff2') format('woff2'),
+         url('../fonts/score/pixelmix-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***********************************/
+
+
+
+/************* MENU *************/
+
+ul {
+  list-style: none;
+  margin: 28px 0 0 162px;
+  position: absolute;
+  z-index: 1;
+}
+
+ul li > * {
+  font-family: 'pixel_lcd7regular';
+  text-decoration: none;
+  color: #142117;
+  font-size: 1.5em;
+  margin: 48px 0;
+}
+
+#starterTitle {
+  font-size: 5em;
+}
+
+#starterInformation {
+  margin-left: 29px;
+}
+
+#starterInformation:hover {
+  color: #506b54; 
+  text-decoration: underline;
+  cursor: url("../img/cursors/link.cur"), auto;
+}
+
+#starterInformation:active {
+  color: #edfff0;
+}
+
+#starter {
+  width: 600px;
+  position: absolute;
+  top: -55px;
+}
+
+/*************************************/
+
+
+
+/************* PHONE & MAP *************/
+
+#nokia {
+  width: 600px;
+	position: absolute;
+	top: -55px;
+  cursor: none;
+}
+
+#canvas {
+  display: block;
+  margin: 300px auto 300px 94px;
+  border: 20px solid #1ba669;
+}
+
+/****************************************/
+
+
+
+/******* BUTTON PANELS & POSITIONS *******/
+
+#panels {
+  height: 550px;
+  width: 500px;
+  position: absolute;
+  margin: 330px 0 0 50px;
+  z-index: 1;
+}
+
+.buttons {
+  transform: scale(1.324);
+  z-index: 2;
+  position: relative;
+}
+
+#panels > * {
+  cursor: url("../img/cursors/link.cur"), auto;
+}
+
+#button-1 {
+  top: 183px;
+  left: 54px;
+}
+
+#button-2 {
+  top: 201px;
+  left: 124px;
+}
+
+#button-3 {
+  top: 182px;
+  left: 197px;
+}
+
+#button-4 {
+  top: 273px;
+  left: -193px;
+}
+
+#button-5 {
+  top: 296px;
+  left: -128px;
+}
+
+#button-6 {
+  top: 218px;
+  left: 359px;
+}
+
+#button-7 {
+  top: 308px;
+  left: -16px;
+}
+
+#button-8 {
+  top: 328px;
+  left: 39px;
+}
+
+#button-9 {
+  top: 307px;
+  left: 99px;
+}
+
+#button-_ {
+  top: 397px;
+  left: -264px;
+}
+
+#button-0 {
+  top: 313px;
+  left: 209px;
+}
+
+#button-hashtag {
+  top: 292px;
+  left: 262px;
+}
+
+#button-call {
+  top: -87px;
+  left: -98px;
+}
+
+#button-arrows {
+  top: -56px;
+  left: 43px;
+}
+
+#button-home {
+  top: -196px;
+  left: 168px;
+}
+
+/****************************************/
