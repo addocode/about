@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<title>YourVilla | MinimalVilla</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Dienstleistungen rund um minimalistische Villen bereitgestellt von YourVilla." />
+		<meta name="author" content="YourVilla" />
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+	</head>
+
+	<body>
+
+		<div id="info"><b>Upps!</b><br><br>Die ÜK-Website ist leider nicht responsive.</div>
+
+		<style>
+			@media screen and (min-width: 1401px) {
+				#info {
+					display: none;
+				}
+			}
+			
+			@media screen and (max-width: 1400px) {
+				#info {
+					background-color: rgba(0, 0, 0, 0.6);
+					width: 100%;
+					height: 100%;
+					display: block;
+					color: white;
+					font-size: 24px;
+					font-family: metropolis;
+					z-index: 1000000;
+					text-align: center;
+					padding: 30px;
+					position: absolute;
+					top: 0;
+					left: 0;
+					transition: 1s;
+					font-size: 60px;
+					line-height: 72px;
+				}
+			}
+		</style>
+		<script>
+			window.setTimeout("closeInfo();", 4500);
+				
+			function closeInfo(){
+			document.getElementById("info").style.opacity="0";
+			}
+
+
+			window.setTimeout("closeInfo();", 5000);
+				
+			function closeInfo(){
+			document.getElementById("info").style.display="none";
+			}
+		</script>
+
+		<header>
+			<div id="homepage-slider" class="st-slider">
+
+				<input type="radio" class="cs_anchor radio" name="slider" id="slide1" />
+				<input type="radio" class="cs_anchor radio" name="slider" id="slide2" />
+				<input type="radio" class="cs_anchor radio" name="slider" id="slide3" />
+				<input type="radio" class="cs_anchor radio" name="slider" id="play1" checked="" />
+
+				<div class="images">
+					<div class="images-inner">
+						<div class="image-slide">
+							<div class="image">
+								<img src="img/slider-1.jpg" alt="Slider Image 1">
+							</div>
+						</div>
+						<div class="image-slide">
+							<div class="image">
+								<img src="img/slider-2.jpg" alt="Slider Image 2">
+							</div>
+						</div>
+						<div class="image-slide">
+							<div class="image">
+								<img src="img/slider-3.jpg" alt="Slider Image 3">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="labels">
+					<div class="fake-radio">
+						<label for="slide1" class="radio-btn"></label>
+						<label for="slide2" class="radio-btn"></label>
+						<label for="slide3" class="radio-btn"></label>
+					</div>
+				</div>
+			</div>
+
+			<nav id="navbar">
+				<ul id="navbar-ul">
+					<li><img id="navbar-logo" src="img/logos/logo_black.svg" alt="Logo"></li>
+					<li><a href="#home" class="a-nav">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn a-nav">Villen</a>
+                        <div class="dropdown-content">
+                          <a href="#" class="a-nav">Villa 1</a>
+                          <a href="#" class="a-nav">Villa 2</a>
+                          <a href="#" class="a-nav">Villa 3</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn a-nav">Services</a>
+                        <div class="dropdown-content">
+                          <a href="#" class="a-nav">Restaurant</a>
+                          <a href="#" class="a-nav">Motel</a>
+                          <a href="#" class="a-nav">Events</a>
+                          <a href="#" class="a-nav">Specials</a>
+                        </div>
+                    </li>
+                    <li><a href="#" class=" a-nav">News</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn a-nav">Über uns</a>
+                        <div class="dropdown-content">
+                          <a href="#" class="a-nav">Unser Team</a>
+                          <a href="#" class="a-nav">Beitreten</a>
+                        </div>
+                    </li>
+					<li>
+						<form action="php/search.php">
+							<input type="text" id="search-input" name="search" placeholder="Suchen...">
+						</form>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<div class="wrapper">
+                
+				<section>
+					<h1>Headline</h1>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</section>
+
+				<aside>
+				    <article>
+                        <h2 class="h2-aside">Hier steht der neuste News Artikel</h2>
+                        <img src="img/Diverse_Bilder/modern-villas-builders-architects-marbella-aloha152_07.jpg" alt="Villa">     <p class="p-aside">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren [...]</p>
+                        <a href="#" class="a-button-aside">Weiterlesen</a>
+                        <div class="ruler"></div>
+                    </article>
+                    <article>
+                        <h2 class="h2-aside">Hier steht der neuste News Artikel</h2>
+                        <img src="img/Diverse_Bilder/modern-villas-builders-architects-marbella-aloha152_07.jpg" alt="Villa">     <p class="p-aside">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren [...]</p>
+                        <a href="#" class="a-button-aside">Weiterlesen</a>
+                        <div class="ruler"></div>
+                    </article>
+                    <article>
+                        <h2 class="h2-aside">Hier steht der neuste News Artikel</h2>
+                        <img src="img/Diverse_Bilder/modern-villas-builders-architects-marbella-aloha152_07.jpg" alt="Villa">     <p class="p-aside">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren [...]</p>
+                        <a href="#" class="a-button-aside">Weiterlesen</a>
+                        <div class="ruler"></div>
+                    </article>
+				</aside>
+			</div>
+			<div class="clear"></div>
+		</main>
+
+		<footer>
+			<nav id="footer-navbar">
+				<li>
+                    <a class="a-nav-footer" href="#">Über uns</a>
+                </li>
+				<li>
+                    <a class="a-nav-footer" href="#">Kontakt</a>
+                </li>
+                <li>
+                    <a class="a-nav-footer" href="#">Impressum</a>
+                </li>
+			</nav>
+			<div id="ftr">
+				<section class="footer-33">
+					<img src="img/logos/1-1-banner.jpg" alt="Banner">
+				</section>
+				<section class="footer-33">
+					<h2 class="h2-footer">Was ist eine Villa?</h2>
+					<p class="p-footer">Die Bezeichnung Villa stand ursprünglich für ein vornehmes Haus auf
+dem Lande. Im Gegensatz zu Bauernhöfen dienten Villen allerdings
+nur selten landwirtschaftlichen Zwecken, und deren Besitzer hatten ihren
+Hauptwohnsitz häufig in einem Stadthaus. Die italienischen Villen
+der Antike und Renaissance bildeten als Landsitze des Stadtadels ein
+Pendant zu deren Stadtpalästen.</p>
+                    <p class="p-footer">Eine Villa gilt als Ausdruck repräsentativer Wohnkultur und verfeinerter
+Lebensart, der Ausdruck ist entsprechend positiv besetzt. Daher
+wird der Ausdruck Villa oft auch als Synonym für andere Gebäudeformen
+verwendet: So werden Herrenhäuser als Mittelpunkt von landwirtschaftlichen
+Gütern oder kleinere Schlösser nicht selten als Villa
+bezeichnet. In jüngerer Zeit wird die Bezeichnung Stadtvilla auch für
+freistehende Mehrfamilienhäuser mit gehobener Ausstattung verwandt.</p>
+				</section>
+				<section class="footer-33">
+					<h2 class="h2-footer">Ich möchte eine Villa buchen.</h2>
+					<p class="p-footer">Die einzige Möglichkeit, bei uns eine Villa zu buchen, ist es uns unter
+unserer Buchungs-E-Mail zu kontaktieren. Wir legen grossen Wert
+auf das persönliche Gespräch und wir wollen Sie, den Kunden, näher
+kennenlernen, damit wir seine oder ihre Wünsche erfüllen können. Da
+Sie sich dazu entschieden haben, unsere Seite aufzusuchen, sind wir der
+Überzeugung, dass Sie auf der Suche nach einer luxuriösen aber dennoch
+simplistischen Villa sind und bereit sind, mit uns zu verhandeln.</p>
+                    <h3 class="h3-footer">Nehmen Sie mit uns Kontakt auf:</h3>
+                    <a class="a-button-footer" href="#">E-Mail verfassen</a>
+                    <a class="a-button-footer" href="#">Kontaktformular ausfüllen</a>
+				</section>
+				</div>
+				<div class="clear"></div>
+                <p id="copy">&copy; Adam Dolinsky, 2018. All rights reserved.</p>
+		</footer>
+
+		<script src="js/sticky.js"></script>
+	</body>
+
+</html>
